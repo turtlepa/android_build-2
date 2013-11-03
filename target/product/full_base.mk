@@ -38,13 +38,17 @@ PRODUCT_PACKAGES += \
     NoiseField \
     PhaseBeam \
     VisualizationWallpapers \
-    PhotoTable
+    PhotoTable \
+    GooManager
 
 # Additional settings used in all AOSP builds
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.config.ringtone=Ring_Synth_04.ogg \
-    ro.config.notification_sound=pixiedust.ogg
+    ro.config.notification_sound=pixiedust.ogg \
+    ro.goo.developerid=djlamontagneiii \
+    ro.goo.rom=DJL4-4 \
+    ro.goo.version=$(shell date +%s)
 
 # Put en_US first in the list, so make it default.
 PRODUCT_LOCALES := en_US
