@@ -23,7 +23,6 @@ PRODUCT_PACKAGES := \
     DeskClock \
     Bluetooth \
     Calculator \
-    Calendar \
     Camera2 \
     CertInstaller \
     Email \
@@ -34,12 +33,9 @@ PRODUCT_PACKAGES := \
     Keyguard \
     LatinIME \
     Launcher2 \
-    Music \
-    MusicFX \
     OneTimeInitializer \
     PrintSpooler \
     Provision \
-    QuickSearchBox \
     Settings \
     SystemUI \
     TeleService \
