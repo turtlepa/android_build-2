@@ -36,6 +36,7 @@ PRODUCT_PACKAGES += \
     MagicSmokeWallpapers \
     NoiseField \
     PhaseBeam \
+    SunBeam \
     VisualizationWallpapers \
     PhotoTable \
     GooManager \
