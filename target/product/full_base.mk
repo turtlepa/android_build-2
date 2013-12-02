@@ -41,7 +41,8 @@ PRODUCT_PACKAGES += \
     PhotoTable \
     GooManager \
     AndroidTerm \
-    CMFileManager
+    CMFileManager \
+    Focal
 
 # Additional settings used in all AOSP builds
 PRODUCT_PROPERTY_OVERRIDES := \
