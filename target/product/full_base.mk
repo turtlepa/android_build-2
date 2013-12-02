@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
     PhotoTable \
     GooManager \
     AndroidTerm \
-    VoicePlus \
     CMFileManager
 
 # Additional settings used in all AOSP builds
