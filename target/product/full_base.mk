@@ -42,6 +42,7 @@ PRODUCT_PACKAGES += \
     GooManager \
     AndroidTerm \
     VoicePlus \
+    ScreenRecorder \
     CMFileManager
 
 # Additional settings used in all AOSP builds
