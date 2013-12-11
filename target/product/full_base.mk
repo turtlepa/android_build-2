@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhotoTable \
     GooManager \
-    Terminal \
+    AndroidTerm \
     CMFileManager \
     Focal
 
