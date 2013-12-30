@@ -42,6 +42,7 @@ PRODUCT_PACKAGES += \
     GooManager \
     AndroidTerm \
     CMFileManager \
+    DashClock \
     Focal
 
 # Additional settings used in all AOSP builds
