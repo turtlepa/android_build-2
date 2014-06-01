@@ -81,6 +81,7 @@ TARGET_arm_CFLAGS :=    -O3 \
                         -fno-tree-vectorize \
                         -fno-inline-functions \
                         -Wstrict-aliasing=3 \
+                        -Werror=strict-aliasing \
                         -fgcse-after-reload \
                         -fno-ipa-cp-clone \
                         -fno-vect-cost-model \
@@ -96,6 +97,7 @@ TARGET_thumb_CFLAGS :=  -mthumb \
                         -fno-inline-functions \
                         -fno-unswitch-loops \
                         -Wstrict-aliasing=3 \
+                        -Werror=strict-aliasing \
                         -fgcse-after-reload \
                         -fno-ipa-cp-clone \
                         -fno-vect-cost-model \
@@ -174,6 +176,7 @@ TARGET_RELEASE_CFLAGS := \
 			-DNDEBUG \
 			-g \
 			-Wstrict-aliasing=3 \
+			-Werror=strict-aliasing \
 			-fstrict-aliasing \
 			-fgcse-after-reload \
 			-frerun-cse-after-loop \
