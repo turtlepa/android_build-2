@@ -39,11 +39,7 @@ PRODUCT_PACKAGES += \
     SunBeam \
     VisualizationWallpapers \
     PhotoTable \
-    GooManager \
-    AndroidTerm \
-    CMFileManager \
-    DashClock \
-    Focal
+    AndroidTerm
 
 # Additional settings used in all AOSP builds
 PRODUCT_PROPERTY_OVERRIDES := \
